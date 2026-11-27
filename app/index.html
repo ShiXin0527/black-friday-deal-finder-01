@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Friday Haul — Black Friday 2026 Deal Finder</title>
+<meta name="description" content="33 real Black Friday 2026 deals, each checked today with its store, sale price, usual price, discount and verdict.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#/">Friday Haul</a>
+    <span class="tagline">Black Friday 2026 &middot; checked today</span>
+  </div>
+</header>
+<section class="hero">
+  <div class="wrap">
+    <h1>Black Friday deals, checked today</h1>
+    <p>33 real deals from Amazon and Best Buy. Every price was read on Friday, November 27, 2026, and each deal carries a verdict: a true new low, a strong price, or a sale not worth chasing.</p>
+    <p class="verdict-stats" id="verdict-stats"></p>
+  </div>
+</section>
+<div class="wrap">
+  <div id="controls" class="controls">
+    <input id="search" type="search" placeholder="Search deals, brands, products&hellip;" aria-label="Search deals">
+    <label>Category
+      <select id="category"><option value="All">All categories</option></select>
+    </label>
+    <label>Store
+      <select id="store"><option value="All">All stores</option></select>
+    </label>
+    <label>Min. discount
+      <select id="discount">
+        <option value="0">Any discount</option>
+        <option value="20">20% off or more</option>
+        <option value="30">30% off or more</option>
+        <option value="40">40% off or more</option>
+        <option value="50">50% off or more</option>
+      </select>
+    </label>
+    <label>Sort by
+      <select id="sort">
+        <option value="discount">Biggest discount</option>
+        <option value="price">Lowest price</option>
+        <option value="verdict">Best verdict</option>
+      </select>
+    </label>
+  </div>
+  <p id="count" class="count"></p>
+  <main id="app"></main>
+  <footer class="site-foot">
+    <p>All prices were checked on Friday, November 27, 2026 (Black Friday) at the store or in the deals roundup named on each deal. Prices change fast during the sale &mdash; confirm the price on the store page before you buy.</p>
+    <p>Friday Haul is an independent deal finder. Store names belong to their owners; links go to the store&rsquo;s own search for the product.</p>
+  </footer>
+</div>
+</body>
+</html>
